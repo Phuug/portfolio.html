@@ -1,0 +1,30 @@
+body {
+    padding: 35px;
+    background: darkblue;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+
+/* Standard-Styling für Überschriften und Text */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Ab iPad Mini Querformat: Text auf linke Hälfte begrenzen */
+@media (min-width: 768px) {
+    body {
+        max-width: 50%;
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
